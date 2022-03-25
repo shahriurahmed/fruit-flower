@@ -1,0 +1,56 @@
+[
+    {
+        "id": 147,
+        "img": "./Images/1.jpg",
+        "name": "Imriaz",
+        "price": 8000
+    },
+    {
+        "id": 169,
+        "img": "./Images/2.jpg",
+        "name": "Rafi",
+        "price": 6000
+    },
+    {
+        "id": 178,
+        "img": "./Images/3.jpg",
+        "name": "Raju",
+        "price": 5000
+    },
+    {
+        "id": 166,
+        "img": "./Images/4.jpg",
+        "name": "Saikot",
+        "price": 7000
+    },
+    {
+        "id": 128,
+        "img": "./Images/5.jpg",
+        "name": "Farzana",
+        "price": 4000
+    },
+    {
+        "id": 171,
+        "img": "./Images/6.jpg",
+        "name": "Munni",
+        "price": 3000
+    },
+    {
+        "id": 155,
+        "img": "./Images/7.jpg",
+        "name": "Sabbir",
+        "price": 1000
+    },
+    {
+        "id": 156,
+        "img": "./Images/8.jpg",
+        "name": "Mahir",
+        "price": 2500
+    },
+    {
+        "id": 137,
+        "img": "./Images/9.jpg",
+        "name": "Meem",
+        "price": 1000
+    }
+]
