@@ -30,3 +30,14 @@
     font-weight: 800;
 }
 
+#price{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+#item-name{
+    margin-bottom: 5px;
+    font-size: 20px;
+}

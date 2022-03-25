@@ -2,55 +2,55 @@
     {
         "id": 147,
         "img": "./Images/1.jpg",
-        "name": "Imriaz",
-        "price": 8000
+        "name": "International Women's Day Celebration Bundle",
+        "price": 1800
     },
     {
         "id": 169,
         "img": "./Images/2.jpg",
-        "name": "Rafi",
-        "price": 6000
+        "name": "Sweet And Bright FruitFlowers Bundle",
+        "price": 1600
     },
     {
         "id": 178,
         "img": "./Images/3.jpg",
-        "name": "Raju",
-        "price": 5000
+        "name": "Flowers & Chocolate Covered Strawberries Gift Box",
+        "price": 1500
     },
     {
         "id": 166,
         "img": "./Images/4.jpg",
-        "name": "Saikot",
-        "price": 7000
+        "name": "Easter Bouquet & Fruit Arrangement Bundle",
+        "price": 1700
     },
     {
         "id": 128,
         "img": "./Images/5.jpg",
-        "name": "Farzana",
-        "price": 4000
+        "name": "Easter Bouquet Bundle",
+        "price": 1400
     },
     {
         "id": 171,
         "img": "./Images/6.jpg",
-        "name": "Munni",
-        "price": 3000
+        "name": "Easter Flowers & Treats Bundle",
+        "price": 1300
     },
     {
         "id": 155,
         "img": "./Images/7.jpg",
-        "name": "Sabbir",
+        "name": "Birthday Bouquet & Berries Box",
         "price": 1000
     },
     {
         "id": 156,
         "img": "./Images/8.jpg",
-        "name": "Mahir",
+        "name": "Deepest Sympathy FruitFlowers Bouquet",
         "price": 2500
     },
     {
         "id": 137,
         "img": "./Images/9.jpg",
-        "name": "Meem",
+        "name": "Sincerest Sympathy Chocolate & Fruit Platter",
         "price": 1000
     }
 ]

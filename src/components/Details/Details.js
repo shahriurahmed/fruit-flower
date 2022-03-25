@@ -11,8 +11,8 @@ const Details = (props) => {
             <div>
                 <img className="item-image" src={img} alt="" />
 
-                <h3>{name}</h3>
-                <p>Price: {price}</p>
+                <h3 id='item-name'>{name}</h3>
+                <p id='price'>Price: {price}Tk</p>
                 <button onClick={() => props.handleEvent(props.item)} className="cart-button">{icon}  Add to Cart</button>
             </div>
         </div>
