@@ -1,0 +1,29 @@
+.questions{
+    
+    box-shadow: 10px 10px 8px #88888886;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #FCEC09 ;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#questions{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#answer{
+    font-size: 14px;
+    text-align: justify;
+}
+#question{
+    margin-bottom: 5px;
+}
+#divider{
+    margin-top: 25px;
+}
