@@ -1,4 +1,30 @@
 .cart-details{
     text-align: center;
 }
+.info{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
 
+.btn{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+.resetBtn{
+    
+    background-color: red;
+    border: 3px solid rgb(230, 4, 4);
+    color: white;
+}
+
+.chooseBtn{
+    background-color: rgb(5, 180, 5);
+    border: 3px solid rgb(3, 199, 3);
+    color: white;
+    margin-left: 30px;
+}

@@ -15,9 +15,10 @@ const Cart = (props) => {
 
     return (
         <div className="cart-details">
-            <h3>Item count: {newItem.length}</h3>
-            <h3>Total Cost: {total}</h3>
-            <h3>Item Name: </h3>
+            <h1>My Cart </h1>
+            <h3 className='info'>Item count: {newItem.length}</h3 >
+            <h3 className='info'>Total Cost: {total}</h3>
+
             <div className="items">
                 {
                     newItem.map(item => <Showname
@@ -26,6 +27,8 @@ const Cart = (props) => {
                 }
 
             </div>
+            <button className='btn resetBtn'>Reset</button>
+            <button className='btn chooseBtn'>Pick Random Item</button>
 
         </div>
     );
