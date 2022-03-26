@@ -13,13 +13,59 @@ const Cart = (props) => {
         itemName = itemName + item.name;
     }
 
+    const resetPage = () => {
+        const clearpage = document.getElementById("cartItems");
+        clearpage.innerHTML = "";
+
+    }
+
+    const setRandomitem = () => {
+        const totalItem = newItem.length;
+        const selectItem = Math.random() * totalItem;
+        let randomitem = Math.round(selectItem);
+        console.log(randomitem);
+
+
+        if (randomitem === 0) {
+            randomitem = 1;
+            let item = newItem[randomitem];
+            const showitem = document.getElementById("cartItems");
+            showitem.innerHTML = `
+            <img
+                    src="${item.img}"
+                  />
+            
+           <h2> ${item.name}<h2>`;
+
+
+        }
+        else if (randomitem >= newItem.length) {
+            randomitem = newItem.length - 1;
+            let item = newItem[randomitem];
+            const showitem = document.getElementById("cartItems");
+            showitem.innerHTML = `<img
+            src="${item.img}"
+          />
+          <h2> ${item.name}<h2>`;
+
+        }
+
+        else if (randomitem < newItem.length && randomitem >= 0) {
+            let item = newItem[randomitem];
+            const showitem = document.getElementById("cartItems");
+            showitem.innerHTML = `<img
+            src="${item.img}"
+          />
+          <h2> ${item.name}<h2>`;
+
+        }
+
+    }
+
     return (
         <div className="cart-details">
             <h1>My Cart </h1>
-            <h3 className='info'>Item count: {newItem.length}</h3 >
-            <h3 className='info'>Total Cost: {total}</h3>
-
-            <div className="items">
+            <div className="items" id='cartItems' >
                 {
                     newItem.map(item => <Showname
                         item={item}
@@ -27,8 +73,8 @@ const Cart = (props) => {
                 }
 
             </div>
-            <button className='btn resetBtn'>Reset</button>
-            <button className='btn chooseBtn'>Pick Random Item</button>
+            <button className='btn resetBtn' onClick={resetPage}>Reset</button>
+            <button className='btn chooseBtn' onClick={setRandomitem}>Pick Random Item</button>
 
         </div>
     );
