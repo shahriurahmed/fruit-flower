@@ -4,12 +4,12 @@ import './Showname.css';
 const Showname = (props) => {
     const { name, img } = props.item
     return (
-        <div>
-            <div>
+        <div className='cartItem'>
+            <div className='imgdiv'>
                 <img className="grop-img" src={img} alt="" />
             </div>
             <div>
-                <p>Name: {name}</p>
+                <p className='itemName'>{name}</p>
             </div>
 
 
